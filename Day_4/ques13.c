@@ -11,7 +11,8 @@ int main()
     scanf("%d",&n);
     printf("%d  %d",first ,second);
 
-    for(i=3; i<=n; i++)
+    for(i=3; i<=n; i++) //loop strts from 3 as 1st and 2nd has already been printed
+    
     {
         third= first+second;
         printf("   %d  ", third);
